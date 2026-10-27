@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# xsim v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:01:26 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Mon Oct 26 23:38:01 2026
+# Process ID         : 170781
+# Current directory  : /home/anish/VLSI_project/JPEG_compression/JPEG_compression.sim/sim_1/behav/xsim
+# Command line       : xsim -mode tcl -source {xsim.dir/tb_behav/xsim_script.tcl}
+# Log file           : /home/anish/VLSI_project/JPEG_compression/JPEG_compression.sim/sim_1/behav/xsim/xsim.log
+# Journal file       : /home/anish/VLSI_project/JPEG_compression/JPEG_compression.sim/sim_1/behav/xsim/xsim.jou
+# Running On         : Anice-s-swiftgo
+# Platform           : Linuxmint
+# Operating System   : Linux Mint 22.3
+# Processor Detail   : Intel(R) Core(TM) Ultra 7 155H
+# CPU Frequency      : 1948.902 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 22
+# Host memory        : 16445 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 18592 MB
+# Available Virtual  : 13518 MB
+#-----------------------------------------------------------
+source xsim.dir/tb_behav/xsim_script.tcl
+# xsim {tb_behav} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+Pixels checked: 57600 / 57600
+Errors        : 0
+PASS
+$finish called at time : 576095 ns : File "/home/anish/VLSI_project/JPEG_compression/JPEG_compression.srcs/sim_1/new/ycbcr_check.sv" Line 43
+exit
+INFO: xsimkernel Simulation Memory Usage: 288732 KB (Peak: 346264 KB), Simulation CPU Usage: 860 ms
+INFO: [Common 17-206] Exiting xsim at Mon Oct 26 23:38:03 2026...

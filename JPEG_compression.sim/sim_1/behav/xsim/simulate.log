@@ -1,0 +1,10 @@
+Time resolution is 1 ps
+Synthetic frame loaded.
+Checked block 0: row=0 col=0
+Checked block 450: row=15 col=0
+Checked block 899: row=29 col=29
+--------------------------------
+Blocks content-checked: 3 / 3
+Errors: 0
+BLOCK CONTENT TEST PASS
+$finish called at time : 594040 ns : File "/home/anish/VLSI_project/JPEG_compression/JPEG_compression.srcs/sim_1/new/block_buffer_check.sv" Line 187
